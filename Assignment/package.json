@@ -7,7 +7,7 @@
     "test": "jest",
     "dev": "ts-node-dev --respawn src/server.ts",
     "lint": "eslint src --ext .ts",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
