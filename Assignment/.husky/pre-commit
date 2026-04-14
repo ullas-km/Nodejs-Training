@@ -1,5 +1,3 @@
 #!/bin/sh
-
-echo "Running pre-commit checks..."
-
-cd Assignment && npx eslint . && npm test
+echo "Husky is working"
+exit 1
