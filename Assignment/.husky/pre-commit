@@ -1,5 +1,5 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
-npm test
-npm run lint
+echo "Running pre-commit checks..."
+
+cd Assignment && npx eslint . && npm test
