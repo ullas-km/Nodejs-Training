@@ -37,8 +37,6 @@ export const addTeacher = async (req: Request, res: Response) => {
   try {
     const { teacher_name } = req.body;
     const x=20;
-    x=300;
-
 
     if (!teacher_name) {
       return res.status(400).send("Teacher name is required");
