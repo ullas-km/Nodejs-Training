@@ -1,0 +1,6 @@
+projectKey=schoolapp123
+serverUrl=http://localhost:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://localhost:9000/dashboard?id=schoolapp123
+ceTaskId=b577c744-0e7d-45c2-8353-dbc05cd8a435
+ceTaskUrl=http://localhost:9000/api/ce/task?id=b577c744-0e7d-45c2-8353-dbc05cd8a435
