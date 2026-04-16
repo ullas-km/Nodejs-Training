@@ -1,4 +1,5 @@
 import request from "supertest";
+import pool from "../config/db";
 import app from "../app";
 
 describe("Teacher API - CRUD Tests", () => {
@@ -48,4 +49,8 @@ describe("Teacher API - CRUD Tests", () => {
 
     expect(res.statusCode).toBe(404);
   });
+});
+
+afterAll(async () => {
+  await pool.end();
 });
